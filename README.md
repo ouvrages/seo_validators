@@ -1,6 +1,6 @@
 # SEO Validators
 
-SEO Validators helps developers to add SEO validations to administration dashboard forms to ensure
+SEO Validators helps developers to add SEO validations to admin dashboard forms to ensure
 users embrase SEO best practices.
 
 ## Installation
@@ -49,7 +49,7 @@ You can set localized error message by define `message` option when you define y
   validates :field, redundant_image_alt: { message: "custom error message" }
 ```
 
-If you don't want to customize error message, but internalization is really an issue to you, you
+If you don't want to customize error message, but internationalization is really an issue to you, you
 can define all errors messages in a locale file.
 
 ```
